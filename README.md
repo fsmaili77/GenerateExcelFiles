@@ -10,7 +10,8 @@ To generate Excel files in an ASP.NET Core application, you can use a library li
 ## 4.	Create a controller action that generates the Excel file. Here's an example controller action:
    ![image](https://github.com/fsmaili77/GenerateExcelFiles/assets/65200251/96c59c4e-a772-4a46-879d-594bec4fc830)
 
-## 5.	Add a route in your Startup.cs to map the controller action to a URL:
-   ![image](https://github.com/fsmaili77/GenerateExcelFiles/assets/65200251/04b6cefd-62d1-4122-b5a0-85ccd1d588ea)
+## 5.	Add a route in your Program.cs to map the controller action to a URL:
+   ![image](https://github.com/user-attachments/assets/30184360-bbbe-4bbf-a617-59790a4dd72f)
+
 
 ## 6.	Now, when you navigate to a URL like /excel/exporttoexcel, it will trigger the ExportToExcel action in your ExcelController and return an Excel file for download.
